@@ -144,8 +144,8 @@
       "empty": {
         "no_modules": "Noch keine Module hinzugefügt",
         "add_modules": "Fügen Sie Module im Layout-Builder hinzu, um sie hier zu sehen",
-        "all_hidden": "All modules hidden by logic",
-        "all_hidden_desc": "Every module in this layout is hidden by its display conditions"
+        "all_hidden": "Alle durch Logik ausgeblendeten Module",
+        "all_hidden_desc": "Jedes Modul in diesem Layout wird durch seine Anzeigebedingungen ausgeblendet."
       }
     },
     "vertical": {
@@ -156,8 +156,8 @@
       "alignment": {
         "vertical": "Vertikale Ausrichtung",
         "vertical_desc": "Wählen Sie, wie Elemente vertikal im Container ausgerichtet werden.",
-        "horizontal": "Horizontal Alignment",
-        "horizontal_desc": "Choose how items are aligned horizontally within the column."
+        "horizontal": "Horizontale Ausrichtung",
+        "horizontal_desc": "Wählen Sie, wie Elemente horizontal im Container ausgerichtet werden."
       },
       "gap": {
         "title": "Abstand-Konfiguration",
@@ -167,8 +167,8 @@
       "empty": {
         "no_modules": "Noch keine Module hinzugefügt",
         "add_modules": "Fügen Sie Module im Layout-Builder hinzu, um sie hier zu sehen",
-        "all_hidden": "All modules hidden by logic",
-        "all_hidden_desc": "Every module in this layout is hidden by its display conditions"
+        "all_hidden": "Alle durch Logik ausgeblendeten Module",
+        "all_hidden_desc": "Jedes Modul in diesem Layout wird durch seine Anzeigebedingungen ausgeblendet."
       }
     },
     "layout": {
@@ -426,7 +426,7 @@
       "support_desc": "Ihre großzügigen Spenden fördern die Entwicklung erstaunlicher Funktionen für diese Karte! Ohne die Unterstützung von Benutzern wie Ihnen wäre kontinuierliche Innovation nicht möglich.",
       "leave_tip": "TRINKGELD GEBEN (PAYPAL)",
       "version": "Version",
-      "hub_docs": "Documentation in Ultra Card Hub"
+      "hub_docs": "Dokumentation im Ultra Card Hub"
     },
     "actions": {
       "title": "Link-Konfiguration",
@@ -607,7 +607,7 @@
       "active_attribute": "Active Attribute",
       "active_attribute_desc": "Entity attribute to check for active state (e.g., \"condition\" for weather)",
       "active_icon_background_padding": "Active Background Padding",
-      "active_icon_size": "Active Icon Size",
+      "active_icon_size": "Active Symbolgröße",
       "active_name_size": "Active Name Size",
       "active_state_size": "Active State Size",
       "add_icon": "Add Icon",
@@ -638,12 +638,12 @@
         "title": "ICON MODE"
       },
       "icon_row_title": "Icon {number}",
-      "icon_size": "Icon Size",
+      "icon_size": "Symbolgröße",
       "icon_size_desc": "Size of the icon in pixels",
       "inactive_attribute": "Inactive Attribute",
       "inactive_attribute_desc": "Entity attribute to check for inactive state (e.g., \"condition\" for weather)",
       "inactive_icon_background_padding": "Inactive Background Padding",
-      "inactive_icon_size": "Inactive Icon Size",
+      "inactive_icon_size": "Inactive Symbolgröße",
       "inactive_name_size": "Inactive Name Size",
       "inactive_state_size": "Inactive State Size",
       "internal_name": "Name",
@@ -744,7 +744,7 @@
       "error_no_template_desc": "Geben Sie den template-Code im Reiter Allgemein ein",
       "link_underline": "Links unterstreichen",
       "link_underline_desc": "Zeigt eine Linie unter Links. Die Linie übernimmt die Farbe, die Sie dem Linktext geben.",
-      "icon_size": "Icon Size",
+      "icon_size": "Symbolgröße",
       "template_cheatsheet": "Template Cheatsheet",
       "text_size": "Text Size",
       "unified_replaces_content": "Rich text is hidden while Unified Template Mode is on. Turn it off to edit static content, or use the unified template JSON for dynamic text.",
@@ -774,9 +774,9 @@
         "title": "HTML Support"
       },
       "template_cheatsheet": "Template Cheatsheet",
-      "unified_replaces_editor": "Static markdown editor is hidden while Unified Template Mode is on. Turn it off to edit markdown here, or supply markdown in the unified template `content` field.",
+      "unified_replaces_editor": "Der statische Markdown-Editor ist ausgeblendet, solange der einheitliche Vorlagenmodus aktiviert ist. Deaktivieren Sie ihn, um Markdown hier zu bearbeiten, oder geben Sie Markdown im Feld „content“ der einheitlichen Vorlage ein.",
       "unified_template_section": {
-        "desc": "Return JSON with a `content` string (markdown). Optional `color` and `container_background_color`.",
+        "desc": "Gibt JSON mit einer `content`-Zeichenkette (Markdown) zurück. Optionale Parameter `color` und `container_background_color`.",
         "toggle": "Template Mode"
       }
     },
@@ -1010,16 +1010,16 @@
           "match_value_desc": "Textvergleich mit Zustand oder Attribut",
           "type": "Override-Animationstyp"
         },
-        "direction": "Animation Direction",
-        "direction_attribute": "Direction Attribute (Optional)",
-        "direction_attribute_desc": "Read this attribute instead of entity state when deriving direction.",
-        "direction_desc": "Choose a fixed direction, or derive direction from a sensor value.",
-        "direction_entity": "Direction Sensor",
-        "direction_entity_desc": "Negative values reverse the animation. Positive values keep normal direction.",
+        "direction": "Animationsrichtung",
+        "direction_attribute": "Richtungsattribut (optional)",
+        "direction_attribute_desc": "Lesen Sie dieses Attribut anstelle des Entitätsstatus, wenn Sie die Richtung ableiten.",
+        "direction_desc": "Wählen Sie eine feste Richtung aus oder leiten Sie die Richtung aus einem Sensorwert ab.",
+        "direction_entity": "Richtungssensor",
+        "direction_entity_desc": "Negative Werte kehren die Animation um. Positive Werte behalten die normale Richtung bei.",
         "direction_modes": {
           "normal": "Normal",
-          "reverse": "Reverse",
-          "sensor": "From Sensor"
+          "reverse": "Umkehren",
+          "sensor": "Vom Sensor"
         },
         "speed": "Base Speed",
         "speed_attribute": "Speed Attribute (Optional)",
@@ -1638,14 +1638,14 @@
         "title": "Doppeltipp-Aktion",
         "desc": "Aktion, die beim Doppeltippen ausgeführt wird"
       },
-      "icon_size": "Icon Size",
+      "icon_size": "Symbolgröße",
       "icon_size_desc": "Size of the icon in pixels"
     },
     "layout_extra": {
       "module_name": "Modulname:",
       "module_name_placeholder": "z. B. Küchenlicht",
       "module_name_help": "Geben Sie diesem Modul einen benutzerdefinierten Namen, um es im Editor leichter zu identifizieren.",
-      "module_docs": "Open module documentation in Hub"
+      "module_docs": "Moduldokumentation im Hub öffnen"
     },
     "camera": {
       "config": {
@@ -2728,7 +2728,7 @@
         "icon_background_padding_desc": "Space between the icon and the edge of its background.",
         "icon_background_rounded": "Rounded",
         "icon_color": "Trigger Icon Color",
-        "icon_size": "Trigger Icon Size",
+        "icon_size": "Trigger Symbolgröße",
         "icon_size_desc": "Size of the trigger icon in pixels.",
         "module": "Module",
         "module_config": "Module Trigger",
@@ -3092,7 +3092,7 @@
       "status_reauth": "Ultra Card Connect braucht eine erneute Anmeldung (Einstellungen → Geräte & Dienste → Ultra Card Connect).",
       "status_signed_out": "Du hast schon Pro? Melde dich im Ultra Card Hub in der Seitenleiste bei Ultra Card Connect an.",
       "status_inactive": "Dein Pro-Abo ist {status}. Verlängere es auf ultracard.io, um das freizuschalten.",
-      "badge_description": "Badge of Honor is an exclusive Pro feature that displays a beautiful animated badge celebrating your Ultra Card Pro membership."
+      "badge_description": "„Badge of Honor“ ist eine exklusive Pro-Funktion, die ein wunderschönes animiertes Abzeichen anzeigt, das Ihre Ultra Card Pro-Mitgliedschaft würdigt."
     },
     "toggle": {
       "display_settings": "ANZEIGE-EINSTELLUNGEN",
@@ -3158,12 +3158,12 @@
       "match_mode_template": "Templattierung (Erweitert)",
       "unified_match_desc": "Geben Sie JSON mit \"match\": true zurück, wenn dieser Punkt aktiv sein soll, oder einen einfachen true/false-String.",
       "template_cheatsheet": "TemPlatte Cheatsheet",
-      "create_toggle_points": "Create Toggle Points",
-      "quick_setup": "QUICK SETUP",
-      "quick_setup_desc": "Automatically create toggle points based on an entity type (replaces existing points)",
-      "quick_setup_entity": "Select Entity",
-      "quick_setup_entity_desc": "Choose an entity, then click \"Create Toggle Points\" below to auto-generate points based on the entity type",
-      "quick_setup_warning": "This will replace all existing toggle points with auto-generated ones based on the entity type."
+      "create_toggle_points": "Umschaltpunkte erstellen",
+      "quick_setup": "SCHNELLEINRICHTUNG",
+      "quick_setup_desc": "Toggle-Punkte basierend auf einem Entitätstyp automatisch erstellen (ersetzt vorhandene Punkte)",
+      "quick_setup_entity": "Entität auswählen",
+      "quick_setup_entity_desc": "Wählen Sie ein Objekt aus und klicken Sie anschließend unten auf \"Create Toggle Points\", um Punkte basierend auf dem Objekttyp automatisch zu generieren.",
+      "quick_setup_warning": "Dadurch werden alle vorhandenen Umschaltpunkte durch automatisch generierte ersetzt, die auf dem Entitätstyp basieren."
     },
     "custom_variables": {
       "title": "Benutzerdefinierte Variablen",
@@ -3494,8 +3494,8 @@
       "icon_override_desc": "Optional mdi: Symbol; lassen Sie em leer für die animierte Ventilatorgrafik",
       "presets_label": "Luftstrommodus",
       "direction": "Richtung",
-      "decrease_speed": "Decrease speed",
-      "increase_speed": "Increase speed"
+      "decrease_speed": "Geschwindigkeit verringern",
+      "increase_speed": "Geschwindigkeit erhöhen"
     },
     "lock": {
       "error_entity": "Wählen Sie eine Schlossentität aus",
@@ -3817,10 +3817,10 @@
       "off_color": "Farbe Aus",
       "text_color": "Textfarbe",
       "error_configure_entity_desc": "Wählen Sie eine input_boolean-Entität im Allgemeinen Tab",
-      "content_alignment": "Alignment",
-      "content_alignment_desc": "Align the control row inside the module",
-      "show_entity_name": "Show Entity Name",
-      "show_entity_name_desc": "Display the entity name beside the control (switch/checkbox)"
+      "content_alignment": "Ausrichtung",
+      "content_alignment_desc": "Die Steuerungszeile innerhalb des Moduls ausrichten",
+      "show_entity_name": "Entitätsnamen anzeigen",
+      "show_entity_name_desc": "Den Namen der Entität neben dem Steuerelement (Schalter/Kontrollkästchen) anzeigen"
     },
     "button_input": {
       "entity": {
@@ -3894,7 +3894,7 @@
       "color_mode": "Farbenmodus",
       "color_mode_desc": "Hex speichert in input_text, Licht RGB steuert eine Lichteinheit",
       "mode_options": {
-        "hex": "Hex (input_text)",
+        "hex": "Hex (Eingabetext)",
         "light_rgb": "Licht RGB Farbe"
       },
       "entity": {
@@ -3937,10 +3937,10 @@
       "section_ticks": "MARKIERUNGEN",
       "section_animation": "ANIMATION",
       "entity": "Entität",
-      "entity_desc": "Select a sensor or input number entity whose value will be displayed on the gauge.",
+      "entity_desc": "Wählen Sie einen Sensor oder eine Zahleneinheit aus, deren Wert auf der Anzeige dargestellt werden soll.",
       "unified_template": {
         "cheatsheet": "Template cheatsheet",
-        "desc": "Use Jinja2 templates to dynamically set gauge value and gauge_color.",
+        "desc": "Verwenden Sie Jinja2-Vorlagen, um den Wert und die Farbe der Anzeige dynamisch festzulegen.",
         "toggle": "Template Mode"
       }
     },
@@ -4117,8 +4117,8 @@
       "entity_config_title": "Entitätskonfiguration",
       "entity_config_desc": "Wählen Sie die zu steuernde Klimaentität",
       "entity": "Klimaentität",
-      "decrease_temp": "Decrease target temperature",
-      "increase_temp": "Increase target temperature"
+      "decrease_temp": "Zieltemperatur senken",
+      "increase_temp": "Zieltemperatur erhöhen"
     },
     "people": {
       "error_no_entity": "Personenentität auswählen",
@@ -4375,7 +4375,7 @@
         "header_text_color": "Text Color",
         "header_title": "Header Customization",
         "icon_color": "Icon Color",
-        "icon_size": "Icon Size"
+        "icon_size": "Symbolgröße"
       },
       "icon": {
         "custom": "Icon",
@@ -4478,25 +4478,25 @@
       "entities": {
         "title": "⚙️ Forecast Entities"
       },
-      "forecast_background": "Forecast Background",
-      "forecast_background_desc": "Background for the forecast section (theme-aware by default)",
-      "forecast_day_color": "Forecast Day Names",
+      "forecast_background": "Hintergrund der Prognose",
+      "forecast_background_desc": "Hintergrund für den Prognoseabschnitt (standardmäßig themenbezogen)",
+      "forecast_day_color": "Namen der Vorhersagetage",
       "forecast_day_size": "Forecast Day Name Size",
-      "forecast_days": "Forecast Days",
-      "forecast_days_desc": "Number of forecast days (3-7)",
-      "forecast_entity": "Forecast Entity (Optional)",
-      "forecast_entity_desc": "Separate forecast entity if available",
-      "forecast_hours": "Forecast Hours",
-      "forecast_hours_desc": "Hours shown in the hourly view (3-12)",
-      "forecast_icon_size": "Forecast Icon Size",
-      "forecast_icon_size_desc": "Size of forecast weather icons (32-80px)",
-      "forecast_temp_color": "Forecast Temps",
-      "forecast_temp_size": "Forecast Temp Size",
-      "forecast_type": "Show First",
-      "forecast_type_desc": "Hourly needs a weather integration that provides an hourly forecast.",
-      "hourly": "Hourly",
+      "forecast_days": "Vorhersagezeitraum",
+      "forecast_days_desc": "Anzahl der Prognosetage (3–7)",
+      "forecast_entity": "Prognoseentität (optional)",
+      "forecast_entity_desc": "Separate Prognoseetität, falls vorhanden",
+      "forecast_hours": "Prognostizierte Stunden",
+      "forecast_hours_desc": "In der Stundenansicht angezeigte Stunden (3–12)",
+      "forecast_icon_size": "Prognosen Symbolgröße",
+      "forecast_icon_size_desc": "Größe der Wettervorhersagesymbole (32–80 px)",
+      "forecast_temp_color": "Voraussichtliche Temperaturen",
+      "forecast_temp_size": "Prognostizierte Temperaturgröße",
+      "forecast_type": "Erste anzeigen",
+      "forecast_type_desc": "Stündlich benötigt eine Wetterintegration, die eine stündliche Vorhersage liefert.",
+      "hourly": "Stündlich",
       "icon_settings": {
-        "title": "🎨 Icon Settings"
+        "title": "🎨 Symboleinstellungen"
       },
       "icon_style": "Icon Style",
       "icon_style_desc": "Choose between filled or outlined animated icons",
@@ -7268,7 +7268,7 @@
       "absent": "Diese gemeinsame Zeile befindet sich nicht mehr in der Bibliothek. Teilen Sie sie erneut oder heben Sie die Verknüpfung auf, um sie als normalen Container beizubehalten.",
       "share_again": "Noch einmal teilen",
       "conflict": "Diese gemeinsam genutzte Zeile wurde an anderer Stelle geändert (Revision {revision}). Laden Sie die neuere Kopie oder behalten Sie Ihre eigene und überschreiben Sie diese.",
-      "load_newer": "Load the newer copy",
+      "load_newer": "Die neuere Version laden",
       "overwrite": "Meine beibehalten und überschreiben",
       "checking": "Die freigegebene Kopie wird überprüft… Wenn Ultra Card Connect offline ist, wird für diese Karte weiterhin die gespeicherte Kopie angezeigt. Die freigegebene Kopie wird überprüft… Wenn Ultra Card Connect offline ist, wird für diese Karte weiterhin die gespeicherte Kopie angezeigt.",
       "local_ahead": "Sie haben diese Zeile geändert. Durch das Speichern der Karte wird die Änderung an alle Karten weitergegeben, die diese Zeile verwenden.",
@@ -8147,7 +8147,7 @@
         "icon_background_padding_desc": "Space between the icon and the edge of its background.",
         "icon_background_rounded": "Rounded",
         "icon_field": "Trigger Icon",
-        "icon_size": "Icon Size",
+        "icon_size": "Symbolgröße",
         "icon_size_desc": "Size of the trigger icon.",
         "label": "Trigger Label",
         "style": "Trigger Style",
@@ -8203,9 +8203,9 @@
         "title": "Grid Configuration"
       },
       "empty": {
-        "add_modules": "Add modules in the layout builder to see them in the grid",
-        "all_hidden": "All modules hidden by logic",
-        "no_modules": "No modules added yet"
+        "add_modules": "Fügen Sie Module im Layout-Builder hinzu, um sie im Raster anzuzeigen",
+        "all_hidden": "Alle durch Logik ausgeblendeten Module",
+        "no_modules": "Es wurden noch keine Module hinzugefügt"
       },
       "responsive": {
         "breakpoint": "Mobile Breakpoint (px)",
@@ -8263,9 +8263,9 @@
       "unavailable": "Unavailable"
     },
     "pagebreak": {
-      "info_text": "Page breaks appear as a slim divider in the editor and are invisible on the dashboard. When used inside a Slider Layout, they separate content into different slides. All modules before a page break belong to one page, and modules after it belong to the next page.",
-      "info_title": "How Page Breaks Work:",
-      "preview_label": "Page Break"
+      "info_text": "Seitenumbrüche werden im Editor als schmaler Trennstrich angezeigt und sind auf dem Dashboard nicht sichtbar. Werden sie innerhalb eines Slider-Layouts verwendet, unterteilen sie den Inhalt in verschiedene Slides. Alle Module vor einem Seitenumbruch gehören zu einer Seite, …",
+      "info_title": "So funktionieren Seitenumbrüche:",
+      "preview_label": "Seitenumbrüche"
     },
     "pro_feature": "Pro Feature",
     "screensaver": {
@@ -8314,7 +8314,7 @@
       },
       "empty": {
         "add_modules": "Add modules in the layout builder to see them in this row",
-        "all_hidden": "All modules hidden by logic",
+        "all_hidden": "Alle durch Logik ausgeblendeten Module",
         "no_modules": "No modules added yet"
       },
       "items": {
@@ -8744,7 +8744,7 @@
       "field_tags": "Voreingestellte Tags",
       "field_code": "Voreingestellter Code",
       "field_photos": "Voreingestellte Fotos",
-      "field_integrations": "Integrations",
+      "field_integrations": "Integrationen",
       "title_required": "Ein Titel ist erforderlich.",
       "description_required": "Eine Beschreibung ist erforderlich.",
       "category_required": "Bitte wählen Sie eine Kategorie aus.",
