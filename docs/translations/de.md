@@ -3,9 +3,9 @@
 > This page is generated automatically from the translation files. Don't edit it by hand;
 > it refreshes itself after every change to the `main` branch.
 
-**84.6% translated** — 6,887 of 8,138 entries. **1,251 still in English.**
+**85.5% translated** — 6,958 of 8,138 entries. **1,180 still in English.**
 
-🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜
+🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜
 
 ## How to translate these
 
@@ -19,7 +19,7 @@ More help: [translation guide](../../CONTRIBUTING_TRANSLATIONS.md) · [all langu
 
 If the English word really is right in your language (a brand name, or a word you also use), just leave it. It will stay on this list, and that's fine.
 
-## Still in English (1,251)
+## Still in English (1,180)
 
 Biggest sections first. Click a section to open it.
 
@@ -401,111 +401,6 @@ Biggest sections first. Click a section to open it.
 </details>
 
 <details>
-<summary><strong>Badge (editor)</strong> — 45 left</summary>
-
-| English text | Key |
-| --- | --- |
-| ANIMATION | `editor.badge.animation_title` |
-| Badge Size | `editor.badge.badge_size` |
-| Overall size of the badge in pixels | `editor.badge.badge_size_desc` |
-| Gradient | `editor.badge.bg_gradient` |
-| Solid Color | `editor.badge.bg_solid` |
-| Transparent | `editor.badge.bg_transparent` |
-| Clockwise | `editor.badge.clockwise` |
-| Color 1 (Teal) | `editor.badge.color_1` |
-| Color 2 (Blue-Teal) | `editor.badge.color_2` |
-| Color 3 (Purple) | `editor.badge.color_3` |
-| Color 4 (Indigo) | `editor.badge.color_4` |
-| Color Shift Animation | `editor.badge.color_shift` |
-| Animate gradient colors shifting around the ring | `editor.badge.color_shift_desc` |
-| Color Shift Speed | `editor.badge.color_shift_speed` |
-| Time in seconds for full color cycle | `editor.badge.color_shift_speed_desc` |
-| Set the gradient colors that shift around the badge ring. The colors will smoothly transition creating a beautiful animated effect. | `editor.badge.colors_desc` |
-| GRADIENT COLORS | `editor.badge.colors_title` |
-| Counter-Clockwise | `editor.badge.counter_clockwise` |
-| Glow Effect | `editor.badge.glow` |
-| Add a soft glow around the badge | `editor.badge.glow_desc` |
-| Glow Intensity | `editor.badge.glow_intensity` |
-| Icon Color | `editor.badge.icon_color` |
-| Inner Background Type | `editor.badge.inner_bg` |
-| Background style for the inner circle | `editor.badge.inner_bg_desc` |
-| Inner Background Color | `editor.badge.inner_color` |
-| Choose what to display in the center of the badge. | `editor.badge.inner_content_desc` |
-| INNER CONTENT | `editor.badge.inner_content_title` |
-| Icon | `editor.badge.inner_icon` |
-| Image URL | `editor.badge.inner_image` |
-| Enter a URL or local path to an image | `editor.badge.inner_image_desc` |
-| Inner Badge Ratio | `editor.badge.inner_ratio` |
-| Size of inner circle relative to outer (0.4 - 0.8) | `editor.badge.inner_ratio_desc` |
-| Text | `editor.badge.inner_text` |
-| Content Type | `editor.badge.inner_type` |
-| Pulse Effect | `editor.badge.pulse` |
-| Add a subtle pulsing animation | `editor.badge.pulse_desc` |
-| Pulse Speed | `editor.badge.pulse_speed` |
-| Rotation Direction | `editor.badge.rotation_direction` |
-| Rotation Speed | `editor.badge.rotation_speed` |
-| Time in seconds for one full rotation (lower = faster) | `editor.badge.rotation_speed_desc` |
-| SIZE & LAYOUT | `editor.badge.size_title` |
-| Text Color | `editor.badge.text_color` |
-| Icon | `editor.badge.type_icon` |
-| Image | `editor.badge.type_image` |
-| Text | `editor.badge.type_text` |
-
-</details>
-
-<details>
-<summary><strong>Appliance (editor)</strong> — 44 left</summary>
-
-| English text | Key |
-| --- | --- |
-| Display | `editor.appliance.display_section` |
-| Layout | `editor.appliance.layout` |
-| Hero | `editor.appliance.layout_hero` |
-| Layout | `editor.appliance.layout_section` |
-| Standard | `editor.appliance.layout_standard` |
-| Name | `editor.appliance.name` |
-| Pause | `editor.appliance.pause` |
-| Program | `editor.appliance.program` |
-| Countdown and finish time while a cycle runs | `editor.appliance.show_completion_desc` |
-| Countdown and finish time while the oven runs | `editor.appliance.show_completion_desc_range` |
-| Show controls | `editor.appliance.show_controls` |
-| Start / Pause / Stop buttons | `editor.appliance.show_controls_desc` |
-| Oven light and Stop buttons | `editor.appliance.show_controls_desc_range` |
-| Show cooktop burners | `editor.appliance.show_cooktop` |
-| Burner indicators on the graphic and a “burners on” chip | `editor.appliance.show_cooktop_desc` |
-| Show feature switches | `editor.appliance.show_features` |
-| Show appliance graphic | `editor.appliance.show_graphic` |
-| Show power & energy | `editor.appliance.show_metrics` |
-| Live wattage and energy usage tiles | `editor.appliance.show_metrics_desc` |
-| Show power button | `editor.appliance.show_power_button` |
-| Show setpoint controls | `editor.appliance.show_setpoints` |
-| − / + buttons to adjust target temperatures | `editor.appliance.show_setpoints_desc` |
-| Show cycle settings | `editor.appliance.show_settings` |
-| Dropdowns for water temperature, spin level, and similar options | `editor.appliance.show_settings_desc` |
-| Show status | `editor.appliance.show_status` |
-| Cycle phase and job state | `editor.appliance.show_status_desc` |
-| Show temperatures | `editor.appliance.show_temps` |
-| Fridge and freezer temperature tiles | `editor.appliance.show_temps_desc` |
-| Show oven temperature | `editor.appliance.show_temps_range` |
-| Current temperature and set point tiles | `editor.appliance.show_temps_range_desc` |
-| Show title | `editor.appliance.show_title` |
-| Graphic size | `editor.appliance.size` |
-| Size of the appliance illustration | `editor.appliance.size_desc` |
-| Start | `editor.appliance.start` |
-| Done | `editor.appliance.state_done` |
-| Error | `editor.appliance.state_error` |
-| Idle | `editor.appliance.state_idle` |
-| Off | `editor.appliance.state_off` |
-| Paused | `editor.appliance.state_paused` |
-| Running | `editor.appliance.state_running` |
-| Unavailable | `editor.appliance.state_unavailable` |
-| Stop | `editor.appliance.stop` |
-| Stop button | `editor.appliance.stop_button` |
-| Text color | `editor.appliance.text_color` |
-
-</details>
-
-<details>
 <summary><strong>Time machine (editor)</strong> — 43 left</summary>
 
 | English text | Key |
@@ -557,6 +452,55 @@ Biggest sections first. Click a section to open it.
 </details>
 
 <details>
+<summary><strong>Badge (editor)</strong> — 41 left</summary>
+
+| English text | Key |
+| --- | --- |
+| ANIMATION | `editor.badge.animation_title` |
+| Transparent | `editor.badge.bg_transparent` |
+| Clockwise | `editor.badge.clockwise` |
+| Color 1 (Teal) | `editor.badge.color_1` |
+| Color 2 (Blue-Teal) | `editor.badge.color_2` |
+| Color 3 (Purple) | `editor.badge.color_3` |
+| Color 4 (Indigo) | `editor.badge.color_4` |
+| Color Shift Animation | `editor.badge.color_shift` |
+| Animate gradient colors shifting around the ring | `editor.badge.color_shift_desc` |
+| Color Shift Speed | `editor.badge.color_shift_speed` |
+| Time in seconds for full color cycle | `editor.badge.color_shift_speed_desc` |
+| Set the gradient colors that shift around the badge ring. The colors will smoothly transition creating a beautiful animated effect. | `editor.badge.colors_desc` |
+| GRADIENT COLORS | `editor.badge.colors_title` |
+| Counter-Clockwise | `editor.badge.counter_clockwise` |
+| Glow Effect | `editor.badge.glow` |
+| Add a soft glow around the badge | `editor.badge.glow_desc` |
+| Glow Intensity | `editor.badge.glow_intensity` |
+| Icon Color | `editor.badge.icon_color` |
+| Inner Background Type | `editor.badge.inner_bg` |
+| Background style for the inner circle | `editor.badge.inner_bg_desc` |
+| Inner Background Color | `editor.badge.inner_color` |
+| Choose what to display in the center of the badge. | `editor.badge.inner_content_desc` |
+| INNER CONTENT | `editor.badge.inner_content_title` |
+| Icon | `editor.badge.inner_icon` |
+| Image URL | `editor.badge.inner_image` |
+| Enter a URL or local path to an image | `editor.badge.inner_image_desc` |
+| Inner Badge Ratio | `editor.badge.inner_ratio` |
+| Size of inner circle relative to outer (0.4 - 0.8) | `editor.badge.inner_ratio_desc` |
+| Text | `editor.badge.inner_text` |
+| Content Type | `editor.badge.inner_type` |
+| Pulse Effect | `editor.badge.pulse` |
+| Add a subtle pulsing animation | `editor.badge.pulse_desc` |
+| Pulse Speed | `editor.badge.pulse_speed` |
+| Rotation Direction | `editor.badge.rotation_direction` |
+| Rotation Speed | `editor.badge.rotation_speed` |
+| Time in seconds for one full rotation (lower = faster) | `editor.badge.rotation_speed_desc` |
+| SIZE & LAYOUT | `editor.badge.size_title` |
+| Text Color | `editor.badge.text_color` |
+| Icon | `editor.badge.type_icon` |
+| Image | `editor.badge.type_image` |
+| Text | `editor.badge.type_text` |
+
+</details>
+
+<details>
 <summary><strong>Update monitor (editor)</strong> — 38 left</summary>
 
 | English text | Key |
@@ -599,47 +543,6 @@ Biggest sections first. Click a section to open it.
 | Updates first | `editor.update_monitor.sort_updates` |
 | Title | `editor.update_monitor.title` |
 | Header above the list. | `editor.update_monitor.title_desc` |
-
-</details>
-
-<details>
-<summary><strong>Background (editor)</strong> — 33 left</summary>
-
-| English text | Key |
-| --- | --- |
-| Entity | `editor.background.entity` |
-| Select an entity that provides a picture URL or image (e.g. person, camera, or media player). | `editor.background.entity_desc` |
-| Image URL | `editor.background.image_url` |
-| Enter the direct URL to the background image. | `editor.background.image_url_desc` |
-| Apply custom background images to your dashboard view. Only the topmost enabled module with passing logic conditions will be applied. | `editor.background.info_desc` |
-| View Background | `editor.background.info_title` |
-| Opacity | `editor.background.opacity` |
-| Control the opacity of the background image (0–100%). | `editor.background.opacity_desc` |
-| Background Position | `editor.background.position` |
-| Set the position (e.g., center, top left, bottom right). | `editor.background.position_desc` |
-| Background Repeat | `editor.background.repeat` |
-| Repeat | `editor.background.repeat_both` |
-| Control how the background image repeats. | `editor.background.repeat_desc` |
-| No Repeat | `editor.background.repeat_none` |
-| Repeat Horizontally | `editor.background.repeat_x` |
-| Repeat Vertically | `editor.background.repeat_y` |
-| Control how the background image is displayed. | `editor.background.settings_desc` |
-| Background Settings | `editor.background.settings_title` |
-| Background Size | `editor.background.size` |
-| Auto (Original size) | `editor.background.size_auto` |
-| Contain (Fit within area) | `editor.background.size_contain` |
-| Cover (Fill entire area) | `editor.background.size_cover` |
-| Control how the background image is sized within the view. | `editor.background.size_desc` |
-| Fill (Stretch to fit) | `editor.background.size_fill` |
-| Background Source | `editor.background.source_title` |
-| Background Type | `editor.background.type` |
-| Select the source type for your background image. | `editor.background.type_desc` |
-| Entity Image | `editor.background.type_entity` |
-| None | `editor.background.type_none` |
-| Upload Image | `editor.background.type_upload` |
-| Image URL | `editor.background.type_url` |
-| Upload Image | `editor.background.upload` |
-| Click to upload a background image file from your device. | `editor.background.upload_desc` |
 
 </details>
 
@@ -1271,6 +1174,23 @@ Biggest sections first. Click a section to open it.
 </details>
 
 <details>
+<summary><strong>Appliance (editor)</strong> — 9 left</summary>
+
+| English text | Key |
+| --- | --- |
+| Display | `editor.appliance.display_section` |
+| Layout | `editor.appliance.layout` |
+| Hero | `editor.appliance.layout_hero` |
+| Layout | `editor.appliance.layout_section` |
+| Standard | `editor.appliance.layout_standard` |
+| Name | `editor.appliance.name` |
+| Pause | `editor.appliance.pause` |
+| Program | `editor.appliance.program` |
+| Start | `editor.appliance.start` |
+
+</details>
+
+<details>
 <summary><strong>Bambu (editor)</strong> — 9 left</summary>
 
 | English text | Key |
@@ -1894,6 +1814,15 @@ Biggest sections first. Click a section to open it.
 | English text | Key |
 | --- | --- |
 | Version | `editor.about.version` |
+
+</details>
+
+<details>
+<summary><strong>Background (editor)</strong> — 1 left</summary>
+
+| English text | Key |
+| --- | --- |
+| Image URL | `editor.background.type_url` |
 
 </details>
 
